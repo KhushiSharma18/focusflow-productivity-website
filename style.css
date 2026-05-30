@@ -38,7 +38,9 @@ nav ul{
     list-style: none;
 }
 
-nav ul li{
+nav ul li a{
+    color: white;
+    text-decoration: none;
     padding: 2px;
     transition: 0.3s;
 }
@@ -146,4 +148,62 @@ nav ul li:hover{
 .support{
     background-color: rgba(236, 72, 153, 0.15);
     color: #EC4899;
+}
+
+.d-goals{
+    color: white;
+    text-align: center;
+}
+.d-goals p{
+    margin: 10px;
+}
+
+
+.goals-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.goals-card{
+    text-align: start;
+    background-color: #111827;
+    padding: 10px 65px 20px 7px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 260px;
+}
+.goals-icon{
+    font-size: 35px;
+    padding: 10px;
+}
+.study{
+    color: #9018ff;
+}
+.workout{
+    color: #22C55E;
+}
+.reading{
+    color: #F59E0B;
+}
+.planning{
+    color: #EC4899;
+}
+
+.goals-content h2{
+    padding: 10px;
+    padding-bottom: 0;
+}
+.goals-content p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.goals-content a{
+    padding: 10px;
+}
+
+.goals-card a{
+    margin-top: 20px;
+}
+.explore-btn{
+    text-decoration: none;
 }
