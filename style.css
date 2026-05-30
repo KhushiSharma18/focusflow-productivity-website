@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #050816;
+}
+
+.name{
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.name span{
+    color: #9018ff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 2px;
+    transition: 0.3s;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #9018ff;
+    font-weight: bold;
+}
+
+.signup{
+    background-color: #9018ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    transition: 0.3s;
+}
+.signup:hover{
+    background-color: #7C3AED;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.intro{
+    background-image: linear-gradient(rgba(0,0,0,0.1),
+    rgba(0,0,0,0.1)),url(Images/Top.jpeg);
+    height: 90vh;
+    align-items: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.intro-text{
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 60px;
+}
+.intro-text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.intro-text p{
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: lightcyan;
+}
+.intro-text span{
+    color: #9018ff;
+}
+.intro-text button{
+    font-size: 15px;
+    margin: 20px;
+    width: 180px;
+}
+
+.stats-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: #111827;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.stats-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-right: 1px solid #3f4c5e;
+    padding-right: 30px;
+}
+.stats-card:last-child{
+    border-right: none;
+    padding-right: 10px;
+}
+
+.stats-icon{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.user{
+    background-color: rgba(139, 92, 246, 0.15);
+    color: #9018ff;
+}
+.goals{
+    background-color: rgba(250, 204, 21, 0.15);
+    color: #FACC15;
+}
+.productivity{
+    background-color: rgba(34, 197, 94, 0.15);
+    color: #22C55E;
+}
+.support{
+    background-color: rgba(236, 72, 153, 0.15);
+    color: #EC4899;
+}
