@@ -106,6 +106,8 @@ nav ul li:hover{
     width: 180px;
 }
 
+
+
 .stats-container{
     color: white;
     display: flex;
@@ -150,7 +152,7 @@ nav ul li:hover{
     color: #EC4899;
 }
 
-.d-goals{
+ .d-goals{
     color: white;
     text-align: center;
 }
@@ -206,4 +208,90 @@ nav ul li:hover{
 }
 .explore-btn{
     text-decoration: none;
+}
+
+
+
+.d-tools{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.d-tools p{
+    margin: 10px;
+}
+
+
+
+.tools-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.tools-card{
+    background-color: #111827;
+    padding: 10px 65px 20px 7px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 260px;
+}
+.tools-icon{
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.timer{
+    color: #9018ff;
+}
+.list{
+    color: #4F7DFF;
+}
+.notes{
+    color: #4ADE80;
+}
+.focus{
+    color: #F5A623;
+}
+
+.tools-content h2{
+    white-space: nowrap;
+    font-size: 25px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.tools-content p{
+    padding: 10px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+.tools-btn{
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: medium;
+    margin-left: 10px;
+}
+.btimer{
+    background-color: #8B5CF6;
+}
+.blist{
+    background-color: #4F7DFF;
+}
+.bnotes{
+    background-color: #4A8F5D;
+}
+.bfocus{
+    background-color: #A5722A;
+}
+
+.bt-img{
+   margin: 40px 40px;
+   margin-top: 0px;
+}
+.bt-img img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    display: block;
 }
