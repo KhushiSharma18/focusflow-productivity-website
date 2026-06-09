@@ -295,3 +295,66 @@ nav ul li:hover{
     border-radius: 20px;
     display: block;
 }
+
+.bottom{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+.bottom h4{
+    margin-bottom: 10px;
+}
+.bottom ul li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+.bottom ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.804);
+    font-size: 13px;
+}
+.bottom ul li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #9018ff;
+    font-weight: bold;
+}
+
+.left-bot h3{
+    margin-bottom: 10px;
+}
+.left-bot h3 span{
+    color: #9018ff;
+}
+.left-bot p{
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.804);
+}
+
+.stayconnected p{
+    color: rgba(255, 255, 255, 0.804);
+    margin-bottom: 10px;
+}
+.bottom input{
+    background-color: #111827;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(255, 255, 255, 0.804);
+}
+.bottom button{
+    background-color: #9018ff;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    transition: 0.3s;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.304);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
